@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
-import './components/ButtonOne';
-import ButtonOne from './components/ButtonOne';
+// import './components/Button';
+import Button from './components/Button';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <ButtonOne default/>
+        <Button name={"default"} default/>
+        <Button name={"disable"} disable/>
       </div>
     );
   }
